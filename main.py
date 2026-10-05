@@ -25,7 +25,7 @@ scores = [3.2, 2.8, 3.9]
 avg_score = sum(scores) / len(scores)
 
 # print the average score
-print("Average score:", avg_score)
+print(f"Average score: {avg_score:.2f}")
 
 # print scores above the average
 for i in range(len(scores)):
